@@ -11,4 +11,4 @@ Run test_policy.py to visualize a pretrain policy.
 
 ActorCrititNetMann in model.py implements our layer-wise Mixture of Experts, which is mathematically equivalent to the weight-blended Mixture of Expert
 introduced in the paper [Mode-Adaptive Neural Networks for Quadruped Motion Control](https://homepages.inf.ed.ac.uk/tkomura/dog.pdf). Our weight-blended
-interpretation allows for up to 10x speed up compared to the original implementation.
+interpretation allows for up to 10x speed up compared to the original implementation. This implementation is inspired by [Motion VAE](https://github.com/electronicarts/character-motion-vaes).
